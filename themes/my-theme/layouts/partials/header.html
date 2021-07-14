@@ -1,0 +1,14 @@
+<header>
+  <h1>{{ .Site.Title }}</h1>
+  <nav>
+    <ul>
+      {{ range .Site.Sections }}
+      <li>
+        <a href="{{.Permalink}}">
+          {{.Title}}
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>

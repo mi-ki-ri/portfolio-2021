@@ -2,7 +2,6 @@
   "htmlElements": {
     "tags": [
       "a",
-      "article",
       "body",
       "h1",
       "head",
@@ -12,8 +11,8 @@
       "link",
       "main",
       "meta",
+      "nav",
       "p",
-      "script",
       "section",
       "time",
       "title",
