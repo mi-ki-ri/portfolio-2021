@@ -3,4 +3,8 @@
 {{ if  hugo.IsProduction  }}
   {{ $style = $style | minify | fingerprint | resources.PostProcess }}
 {{ end }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Reggae+One&family=Sawarabi+Gothic&display=swap" rel="stylesheet">
 <link href="{{ $style.RelPermalink }}" rel="stylesheet" />

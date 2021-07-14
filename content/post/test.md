@@ -1,7 +1,8 @@
 ---
-title: "Test"
+title: "作成中"
 date: 2021-07-14T14:32:27+09:00
 draft: false
+hero: "https://source.unsplash.com/800x600/?build"
 ---
 
-test
+現在、テーマファイルをいじっているところ。

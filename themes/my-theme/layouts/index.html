@@ -1,12 +1,49 @@
-{{ define "title" }} {{- .Title -}} {{ end }} 
-{{ define "main" }}
-<main>
+{{ define "title" }} {{- .Title -}} {{ end }} {{ define "main" }} {{ partial
+"hero.html" . }}
+<main
+  class="
+    object-contain
+    lg:container
+    mx-auto
+    border-t-4 border-double
+    h-auto
+    border-gray-400
+  "
+>
+  <h2 class="text-3xl mt-5">Articles:</h2>
   <ul>
-    <ul>
-      {{ range .Site.RegularPages }}
-      <li>
-        <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-        <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+    <ul class="flex flex-wrap align-middle">
+      {{ range .Site.RegularPages.ByDate }}
+      <li
+        class="
+          flex
+          w-2/6
+          max-w-2xl
+          m-5
+          justify-center
+          items-stretch
+          flex-grow flex-col
+          text-center
+          bg-white
+          shadow-md
+        "
+      >
+        <h3>
+          <a
+            class="
+              text-5xl
+              flex
+              justify-center
+              items-center
+              object-contain
+              text-gray-50
+              hover:text-gray-200
+            "
+            style="min-height: 20vh;background-image: url({{.Params.hero}}); text-shadow:1px 1px 2px gray;"
+            href="{{ .Permalink }}"
+            >{{ .Title }}</a
+          >
+        </h3>
       </li>
       {{ end }}
     </ul>

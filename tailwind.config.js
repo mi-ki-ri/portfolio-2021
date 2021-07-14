@@ -2,6 +2,12 @@ const theme = require("tailwindcss/defaultTheme");
 const typography = require("@tailwindcss/typography");
 
 module.exports = {
+  theme: {
+    fontFamily: {
+      sans: ["Sawarabi Gothic", "Helvetica", "Arial", "sans-serif"],
+      display: ["Reggae One"]
+    },
+  },
   important: true,
   purge: {
     enabled: process.env.HUGO_ENVIRONMENT === "production",
