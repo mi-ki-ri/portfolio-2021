@@ -2,7 +2,7 @@ baseURL = "localhost:1313/"
 languageCode = "ja"
 title = "HOTTA Tatsuya's Portfolio 2021"
 theme = "my-theme"
-publishDir = "doc"
+publishDir = "docs"
 
 [build]
 writeStats = true
