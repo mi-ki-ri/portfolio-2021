@@ -1,4 +1,4 @@
-baseURL = "localhost:1313/"
+baseURL = "https://mi-ki-ri.github.io/portfolio-2021/"
 languageCode = "ja"
 title = "HOTTA Tatsuya's Portfolio 2021"
 theme = "my-theme"
