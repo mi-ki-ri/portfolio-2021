@@ -1,5 +1,5 @@
 ---
-title: "Awesome Brew Cask"
+title: "Mac用アプリ一覧サイト Awesome Brew Cask"
 date: 2021-10-05T12:43:46+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/awesome-brew-cask.png"

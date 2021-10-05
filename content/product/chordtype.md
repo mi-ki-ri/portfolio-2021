@@ -1,5 +1,5 @@
 ---
-title: "ChordType"
+title: "コード譜作成支援サイト ChordType"
 date: 2021-10-05T12:49:30+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/chordtype.png"
