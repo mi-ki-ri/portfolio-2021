@@ -1,7 +1,7 @@
 ---
 title: "Susanoo"
 date: 2021-07-14T17:47:00+09:00
-draft: false
+draft: true
 hero: "https://source.unsplash.com/800x600/?sword"
 ---
 

@@ -3,10 +3,12 @@
     "tags": [
       "a",
       "body",
+      "code",
       "div",
       "h1",
       "h2",
       "h3",
+      "h4",
       "head",
       "header",
       "html",
@@ -64,7 +66,14 @@
       "w-2/6"
     ],
     "ids": [
-      "vertical-drum-machene"
+      "awesome-brew-cask",
+      "cats-api",
+      "chordtype",
+      "nuxtjs",
+      "tonejs",
+      "vertical-drum-machene",
+      "ラッキータロット",
+      "構築"
     ]
   }
 }
