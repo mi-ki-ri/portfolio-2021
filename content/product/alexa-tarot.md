@@ -16,3 +16,5 @@ hero: "https://mi-ki-ri.github.io/portfolio-2021/lucky_tarot.png"
 JSファイルとそこから紐付いた `node_modules` フォルダーをZIPにパッキング。
 
 ほとんどチュートリアルどおりで、ランダム要素だけ入れた。
+
+[https://github.com/mi-ki-ri/alexa-tarot](https://github.com/mi-ki-ri/alexa-tarot)

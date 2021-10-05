@@ -8,6 +8,20 @@
     <language>ja</language>
     <lastBuildDate>Tue, 05 Oct 2021 12:49:30 +0900</lastBuildDate><atom:link href="https://mi-ki-ri.github.io/portfolio-2021/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>縦方向ドラムマシン Qubey Falls</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/qubey/</link>
+      <pubDate>Wed, 14 Jul 2021 17:52:56 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/qubey/</guid>
+      <description>Vertical Drum Machene Nuxt.js と Tone.js を利用して作ったドラムマシンWebアプリ。
+通常のドラムマシンは横方向のイメージがあるが、これは縦方向。
+重力のイメージがあるぶん、分かりやすくなったかと思う。
+Nuxt.js indexページだけなのでNuxtはオーバースペックなのだが、慣れてるので採用。
+Tone.js Web Audio APIをラップしたライブラリ。
+GitHub https://github.com/mi-ki-ri/qubey</description>
+    </item>
+    
+    <item>
       <title>コード譜作成支援サイト ChordType</title>
       <link>https://mi-ki-ri.github.io/portfolio-2021/product/chordtype/</link>
       <pubDate>Tue, 05 Oct 2021 12:49:30 +0900</pubDate>
@@ -15,7 +29,8 @@
       <guid>https://mi-ki-ri.github.io/portfolio-2021/product/chordtype/</guid>
       <description>ChordType 左のペインに独自の記法で入力することで、右のペインにコード譜が出てくるWebアプリ。
 1ページしかないがNuxt.js使用。
-html2canvasというライブラリでダウンロードを支援している。</description>
+html2canvasというライブラリでダウンロードを支援している。
+https://github.com/mi-ki-ri/chordtype</description>
     </item>
     
     <item>
@@ -27,7 +42,8 @@ html2canvasというライブラリでダウンロードを支援している。
       <description>Awesome Brew Cask Homebrewでインストールできるアプリを一覧化したもの。
 Pythonでhomebrew公式サイトをスクレイピングして、それをmdファイルの形にしてhugoでサイトの形にしている。
 特徴的なサーチ機能はLUNRを使用している。
-日本語との相性はそこそこ。</description>
+日本語との相性はそこそこ。
+https://github.com/mi-ki-ri/awesome-brew-cask-site</description>
     </item>
     
     <item>
@@ -38,7 +54,8 @@ Pythonでhomebrew公式サイトをスクレイピングして、それをmdフ�
       <guid>https://mi-ki-ri.github.io/portfolio-2021/product/cats-api/</guid>
       <description>Cat&amp;rsquo;s API ランダムに猫の種類を返すAPI。Python(Flask)で作成。
 Flaskのお試しで作ったので簡素。
-Herokuにデプロイした。</description>
+Herokuにデプロイした。
+https://github.com/mi-ki-ri/catsapi</description>
     </item>
     
     <item>
@@ -50,20 +67,8 @@ Herokuにデプロイした。</description>
       <description>ラッキータロット スマートスピーカーのアレクサに対応したスキル。
 発動するたびにランダムにタロットを選び、説明を読み上げる。
 構築 JSファイルとそこから紐付いた node_modules フォルダーをZIPにパッキング。
-ほとんどチュートリアルどおりで、ランダム要素だけ入れた。</description>
-    </item>
-    
-    <item>
-      <title>縦方向ドラムマシン Qubey Falls</title>
-      <link>https://mi-ki-ri.github.io/portfolio-2021/product/qubey/</link>
-      <pubDate>Wed, 14 Jul 2021 17:52:56 +0900</pubDate>
-      
-      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/qubey/</guid>
-      <description>Vertical Drum Machene Nuxt.js と Tone.js を利用して作ったドラムマシンWebアプリ。
-通常のドラムマシンは横方向のイメージがあるが、これは縦方向。
-重力のイメージがあるぶん、分かりやすくなったかと思う。
-Nuxt.js indexページだけなのでNuxtはオーバースペックなのだが、慣れてるので採用。
-Tone.js Web Audio APIをラップしたライブラリ。</description>
+ほとんどチュートリアルどおりで、ランダム要素だけ入れた。
+https://github.com/mi-ki-ri/alexa-tarot</description>
     </item>
     
     <item>

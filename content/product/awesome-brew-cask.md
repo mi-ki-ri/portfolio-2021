@@ -14,3 +14,5 @@ Pythonでhomebrew公式サイトをスクレイピングして、それをmdフ�
 特徴的なサーチ機能は`LUNR`を使用している。
 
 日本語との相性はそこそこ。
+
+[https://github.com/mi-ki-ri/awesome-brew-cask-site](https://github.com/mi-ki-ri/awesome-brew-cask-site)
