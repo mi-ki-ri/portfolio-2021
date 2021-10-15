@@ -2,7 +2,7 @@
 title: "自然言語から色を作る Pallete From Generated Image"
 date: 2021-10-15T16:29:55+09:00
 draft: false
-hero: "https://mi-ki-ri.github.io/portfolio-2021/docs/palletefrom.jpg"
+hero: "https://mi-ki-ri.github.io/portfolio-2021/palletefrom.jpg"
 weight: 999
 ---
 
