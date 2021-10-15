@@ -1,8 +1,8 @@
 ---
-title: "Pallete From Generated Image"
+title: "自然言語から色を作る Pallete From Generated Image"
 date: 2021-10-15T16:29:55+09:00
 draft: false
-hero: "https://github.com/mi-ki-ri/pallete-from-generated-image/blob/main/img/bridge_over_troubled_water.jpg"
+hero: "https://mi-ki-ri.github.io/portfolio-2021/palletefrom.png"
 ---
 
 ### Pallete From Generated Image

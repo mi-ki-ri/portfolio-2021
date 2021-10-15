@@ -1,5 +1,5 @@
 ---
-title: "Lovely Rubber"
+title: "AIアヒルとラバーダッキング　Lovely Rubber"
 date: 2021-10-15T16:08:00+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/lovelyrubber.png"
