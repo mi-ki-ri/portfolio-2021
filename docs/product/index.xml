@@ -22,6 +22,18 @@ https://github.com/mi-ki-ri/lovely-rubber</description>
     </item>
     
     <item>
+      <title>自然言語から色を作る Pallete From Generated Image</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/pallete-from-generated-image/</link>
+      <pubDate>Fri, 15 Oct 2021 16:29:55 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/pallete-from-generated-image/</guid>
+      <description>Pallete From Generated Image 自然言語から生成した画像を作り、それをもとに色情報のパレットを作るPythonスクリプト。
+つまり、ことばから色を連想してくれる。
+deepdazeというライブラリを使用している。
+https://github.com/mi-ki-ri/pallete-from-generated-image</description>
+    </item>
+    
+    <item>
       <title>画面を触ると音が出るWebアプリ　NadeNadeSynth</title>
       <link>https://mi-ki-ri.github.io/portfolio-2021/product/nadenadesynth/</link>
       <pubDate>Fri, 15 Oct 2021 16:53:13 +0900</pubDate>
@@ -71,18 +83,6 @@ React-Native使用。</description>
       <description>Every Little Day Every Little Day
 Google Calendar APIを利用して、各国の祝日データを取得。
 今日が各国においてなんの日に当たるかを一覧表示する。</description>
-    </item>
-    
-    <item>
-      <title>自然言語から色を作る Pallete From Generated Image</title>
-      <link>https://mi-ki-ri.github.io/portfolio-2021/product/pallete-from-generated-image/</link>
-      <pubDate>Fri, 15 Oct 2021 16:29:55 +0900</pubDate>
-      
-      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/pallete-from-generated-image/</guid>
-      <description>Pallete From Generated Image 自然言語から生成した画像を作り、それをもとに色情報のパレットを作るPythonスクリプト。
-つまり、ことばから色を連想してくれる。
-deepdazeというライブラリを使用している。
-https://github.com/mi-ki-ri/pallete-from-generated-image</description>
     </item>
     
     <item>
