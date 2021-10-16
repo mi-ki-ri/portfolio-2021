@@ -1,5 +1,7 @@
+<h2 class="text-3xl mt-5">Articles:</h2>
+
 <div id="theme-tagcloud" class="
-    w-96 border flex flex-wrap justify-around items-stretch	
+    w-full border flex flex-wrap justify-around items-stretch	
   " style="margin-bottom: 15px;">
   {{ $tags := $.Site.Taxonomies.tags.ByCount }}
   {{ $v1 := where $tags "Count" ">=" 1 }}

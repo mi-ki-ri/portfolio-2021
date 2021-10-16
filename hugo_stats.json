@@ -76,7 +76,7 @@
       "text-sm",
       "text-xl",
       "w-2/6",
-      "w-96"
+      "w-full"
     ],
     "ids": [
       "awesome-brew-cask",
