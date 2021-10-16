@@ -21,6 +21,7 @@
       "nav",
       "p",
       "section",
+      "span",
       "title",
       "ul"
     ],
@@ -30,6 +31,7 @@
       "bg-cover",
       "bg-opacity-75",
       "bg-white",
+      "border",
       "border-b-4",
       "border-double",
       "border-gray-400",
@@ -46,6 +48,7 @@
       "hover:text-gray-200",
       "items-center",
       "items-stretch",
+      "justify-around",
       "justify-between",
       "justify-center",
       "lg:container",
@@ -70,8 +73,10 @@
       "text-gray-50",
       "text-lg",
       "text-red-700",
+      "text-sm",
       "text-xl",
-      "w-2/6"
+      "w-2/6",
+      "w-96"
     ],
     "ids": [
       "awesome-brew-cask",
@@ -91,6 +96,7 @@
       "pallete-from-generated-image",
       "pokemon-list-by-color",
       "pomodiary",
+      "theme-tagcloud",
       "tonejs",
       "vertical-drum-machene",
       "ラッキータロット",

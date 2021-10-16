@@ -2,30 +2,36 @@
   <h2 class="text-3xl mb-5">Featured:</h2>
 
   {{ range first 1 (.Site.RegularPages.ByWeight)}}
-  <div
-    class="lg:container mx-auto h-2/3 bg-cover bg-center bg-opacity-75"
-    style="background-image: url({{.Params.hero}});"
-  >
-    <a
-      class="
-        min-h-screen
-        text-gray-50
-        hover:text-gray-200
-        text-xl
-        md:text-5xl
-        drop-shadow-md
-        flex
-        justify-center
-        items-center
-        text-center
-        font-display
-        shadow-md
-      "
-      href="{{.Permalink}}"
-      style="text-shadow: 3px 3px 9px gray"
-    >
-      {{.Title}}
-    </a>
+  <div class="lg:container mx-auto h-2/3 bg-cover bg-center bg-opacity-75"
+    style="background-image: url({{.Params.hero}});">
+    <h3 class="
+          min-h-screen
+          text-gray-50
+          hover:text-gray-200
+          text-xl
+          md:text-5xl
+          drop-shadow-md
+          flex
+          flex-col
+          justify-center
+          items-center
+          text-center
+          font-display
+          shadow-md
+        " style="text-shadow: 3px 3px 9px gray">
+      <a class="text-gray-50
+      hover:text-gray-200" href="{{.Permalink}}">
+        {{.Title}}
+      </a>
+      {{$burl := .Site.BaseURL}}
+      <span class="text-sm">
+        {{ range .Params.Tags }}
+        <a class="text-gray-50
+        hover:text-gray-200" href="{{$burl}}tags/{{ . | urlize }}">{{ . }}</a>
+        {{ end }}
+      </span>
+    </h3>
+
   </div>
   {{ end }}
 </section>

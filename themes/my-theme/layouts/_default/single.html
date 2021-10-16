@@ -1,21 +1,28 @@
 {{ define "title" }} {{- .Title -}} {{ end }} {{ define "main" }}
 <main class="object-contain lg:container mx-auto p-3">
-  <h2
-    class="
+  <h2 class="
       text-lg
       md:text-3xl
       text-center
       flex
+      flex-col
       justify-center
       items-center
       bg-cover
       text-gray-50
       mb-5
       shadow-md
-    "
-    style="min-height: 20vh;background-image: url({{.Params.hero}}); text-shadow:1px 1px 2px gray;"
-  >
+    " style="min-height: 20vh;background-image: url({{.Params.hero}}); text-shadow:1px 1px 2px gray;">
     {{.Title}}
+
+    {{$burl := .Site.BaseURL}}
+    <span class="text-sm">
+      {{ range .Params.Tags }}
+      <a class=" text-gray-50
+      hover:text-gray-200" href="{{$burl}}tags/{{ . | urlize }}">{{ . }}</a>
+      {{ end }}
+    </span>
+
   </h2>
   <section>{{.Content}}</section>
 </main>

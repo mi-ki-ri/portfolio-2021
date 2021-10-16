@@ -1,21 +1,18 @@
 {{ define "title" }} {{- .Title -}} {{ end }} {{ define "main" }} {{ partial
 "hero.html" . }}
-<main
-  class="
+<main class="
     object-contain
     lg:container
     mx-auto
     border-t-4 border-double
     h-auto
     border-gray-400
-  "
->
+  ">
   <h2 class="text-3xl mt-5">Articles:</h2>
   <ul>
     <ul class="flex flex-wrap align-middle">
       {{ range .Site.RegularPages.ByDate }}
-      <li
-        class="
+      <li class="
           flex
           w-2/6
           max-w-2xl
@@ -26,28 +23,36 @@
           text-center
           bg-white
           shadow-md
-        "
-      >
-        <h3>
-          <a
-            class="
-            text-base
-            md:text-2xl
-            flex
-            justify-center
-            items-center
-            object-contain
-            text-gray-50
-            hover:text-gray-200
-            "
-            style="min-height: 20vh;background-image: url({{.Params.hero}}); text-shadow:1px 1px 2px gray;"
-            href="{{ .Permalink }}"
-            >{{ .Title }}</a
-          >
+        ">
+        <h3 class="
+        text-base
+        md:text-2xl
+        flex
+        flex-col
+        justify-center
+        items-center
+        object-contain
+        text-gray-50
+        hover:text-gray-200
+        " style="min-height: 20vh;background-image: url({{.Params.hero}}); text-shadow:1px 1px 2px gray;">
+          <a class="text-gray-50
+          hover:text-gray-200" href="{{ .Permalink }}">{{ .Title }}</a>
+
+          {{$burl := .Site.BaseURL}}
+          <span class="text-sm">
+            {{ range .Params.Tags }}
+            <a class="text-gray-50
+            hover:text-gray-200" href="{{$burl}}tags/{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+          </span>
         </h3>
       </li>
       {{ end }}
     </ul>
   </ul>
 </main>
+
+{{ partial
+  "cloud.html" . }}
+
 {{ end }}
