@@ -3,6 +3,7 @@ title: "各国語で類義語出力　Nltk Synonyms List"
 date: 2021-10-15T16:16:01+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/nltk.png"
+tags: [ "Python", "MyMemory" ]
 ---
 
 ### Nltk Synonyms List

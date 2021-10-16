@@ -4,6 +4,7 @@ date: 2021-10-15T16:29:55+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/palletefrom.jpg"
 weight: 999
+tags: [ "Python", "Deepdaze" ]
 ---
 
 ### Pallete From Generated Image

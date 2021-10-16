@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Flask on HOTTA Tatsuya&#39;s Portfolio 2021</title>
+    <link>https://mi-ki-ri.github.io/portfolio-2021/tags/flask/</link>
+    <description>Recent content in Flask on HOTTA Tatsuya&#39;s Portfolio 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 05 Oct 2021 12:41:09 +0900</lastBuildDate><atom:link href="https://mi-ki-ri.github.io/portfolio-2021/tags/flask/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>猫の種類を返すAPI Cats API</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/cats-api/</link>
+      <pubDate>Tue, 05 Oct 2021 12:41:09 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/cats-api/</guid>
+      <description>Cat&amp;rsquo;s API ランダムに猫の種類を返すAPI。Python(Flask)で作成。
+Flaskのお試しで作ったので簡素。
+Herokuにデプロイした。
+https://github.com/mi-ki-ri/catsapi</description>
+    </item>
+    
+  </channel>
+</rss>

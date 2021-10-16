@@ -3,6 +3,7 @@ title: "架空の個人情報ジェネレーター Dummy Table Generator"
 date: 2021-10-05T21:27:26+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/dummy-table-generator.png"
+tags: [ "JavaScript", "Vue", "Nuxt", "Faker" ]
 ---
 
 ### Dummy Table Generator

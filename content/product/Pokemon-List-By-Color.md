@@ -3,6 +3,7 @@ title: "色分けされたポケモン Pokemon List by Color"
 date: 2021-10-15T16:27:32+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/pokelist.png"
+tags: [ "JavaScript", "Vue", "Nuxt", "PokeAPI" ]
 ---
 
 ### Pokemon List by Color

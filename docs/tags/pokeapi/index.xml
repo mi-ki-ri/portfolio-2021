@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PokeAPI on HOTTA Tatsuya&#39;s Portfolio 2021</title>
+    <link>https://mi-ki-ri.github.io/portfolio-2021/tags/pokeapi/</link>
+    <description>Recent content in PokeAPI on HOTTA Tatsuya&#39;s Portfolio 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 15 Oct 2021 16:27:32 +0900</lastBuildDate><atom:link href="https://mi-ki-ri.github.io/portfolio-2021/tags/pokeapi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>色分けされたポケモン Pokemon List by Color</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/pokemon-list-by-color/</link>
+      <pubDate>Fri, 15 Oct 2021 16:27:32 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/pokemon-list-by-color/</guid>
+      <description>Pokemon List by Color https://mi-ki-ri.github.io/Pokemon-List-By-Color/
+ポケモンを色分けした辞典。
+https://github.com/mi-ki-ri/Pokemon-List-By-Color</description>
+    </item>
+    
+  </channel>
+</rss>

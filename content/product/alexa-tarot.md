@@ -3,6 +3,7 @@ title: "Alexaスキル ラッキータロット"
 date: 2021-10-05T12:33:55+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/lucky_tarot.png"
+tags: [ "Alexa", "JavaScript" ]
 ---
 
 ### ラッキータロット
@@ -15,6 +16,6 @@ hero: "https://mi-ki-ri.github.io/portfolio-2021/lucky_tarot.png"
 
 JSファイルとそこから紐付いた `node_modules` フォルダーをZIPにパッキング。
 
-ほとんどチュートリアルどおりで、ランダム要素だけ入れた。
+ほとんどチュートリアル通りで、ランダム要素だけ入れた。
 
 [https://github.com/mi-ki-ri/alexa-tarot](https://github.com/mi-ki-ri/alexa-tarot)

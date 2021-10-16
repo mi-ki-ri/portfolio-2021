@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alexa on HOTTA Tatsuya&#39;s Portfolio 2021</title>
+    <link>https://mi-ki-ri.github.io/portfolio-2021/tags/alexa/</link>
+    <description>Recent content in Alexa on HOTTA Tatsuya&#39;s Portfolio 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Tue, 05 Oct 2021 12:33:55 +0900</lastBuildDate><atom:link href="https://mi-ki-ri.github.io/portfolio-2021/tags/alexa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Alexaスキル ラッキータロット</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/alexa-tarot/</link>
+      <pubDate>Tue, 05 Oct 2021 12:33:55 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/alexa-tarot/</guid>
+      <description>ラッキータロット スマートスピーカーのアレクサに対応したスキル。
+発動するたびにランダムにタロットを選び、説明を読み上げる。
+構築 JSファイルとそこから紐付いた node_modules フォルダーをZIPにパッキング。
+ほとんどチュートリアル通りで、ランダム要素だけ入れた。
+https://github.com/mi-ki-ri/alexa-tarot</description>
+    </item>
+    
+  </channel>
+</rss>

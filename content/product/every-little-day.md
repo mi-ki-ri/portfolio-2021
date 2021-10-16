@@ -3,6 +3,7 @@ title: "各国の祝日データをチェック Every Little Day"
 date: 2021-10-15T16:39:46+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/everylittleday.png"
+tags: [ "GoogleCalendar", "JavaScript", "Vue", "Firebase" ]
 ---
 
 ### Every Little Day

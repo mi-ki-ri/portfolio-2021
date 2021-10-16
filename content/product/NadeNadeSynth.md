@@ -3,6 +3,7 @@ title: "画面を触ると音が出るWebアプリ　NadeNadeSynth"
 date: 2021-10-15T16:53:13+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/nade.png"
+tags: [ "JavaScript", "WebAudioAPI", "Vue", "Nuxt", "Tonejs" ]
 ---
 
 ### NadeNadeSynth

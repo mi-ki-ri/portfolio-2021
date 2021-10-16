@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nuxt on HOTTA Tatsuya&#39;s Portfolio 2021</title>
+    <link>https://mi-ki-ri.github.io/portfolio-2021/tags/nuxt/</link>
+    <description>Recent content in Nuxt on HOTTA Tatsuya&#39;s Portfolio 2021</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Fri, 15 Oct 2021 16:53:13 +0900</lastBuildDate><atom:link href="https://mi-ki-ri.github.io/portfolio-2021/tags/nuxt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>画面を触ると音が出るWebアプリ　NadeNadeSynth</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/nadenadesynth/</link>
+      <pubDate>Fri, 15 Oct 2021 16:53:13 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/nadenadesynth/</guid>
+      <description>NadeNadeSynth 画面を触ることで音が出るWebアプリ。
+Tone.js使用。</description>
+    </item>
+    
+    <item>
+      <title>色分けされたポケモン Pokemon List by Color</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/pokemon-list-by-color/</link>
+      <pubDate>Fri, 15 Oct 2021 16:27:32 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/pokemon-list-by-color/</guid>
+      <description>Pokemon List by Color https://mi-ki-ri.github.io/Pokemon-List-By-Color/
+ポケモンを色分けした辞典。
+https://github.com/mi-ki-ri/Pokemon-List-By-Color</description>
+    </item>
+    
+    <item>
+      <title>AIアヒルとラバーダッキング　Lovely Rubber</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/lovely-rubber/</link>
+      <pubDate>Fri, 15 Oct 2021 16:08:00 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/lovely-rubber/</guid>
+      <description>Lovely Rubber ゴム製のアヒルと会話することで、頭の中を整理するテクニック、ラバーダッキング。
+そのラバーダッキングをWeb上でできるようにしたもの。
+使い方 Webアプリへ行く。
+テキストエリアに入力して送信した内容にAIが適当に返事をしてくれるので、会話する。
+技術 フロントにはNuxt、バックエンドにKOTOHA APIを使用。
+https://github.com/mi-ki-ri/lovely-rubber</description>
+    </item>
+    
+    <item>
+      <title>架空の個人情報ジェネレーター Dummy Table Generator</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/dummy-table-generator/</link>
+      <pubDate>Tue, 05 Oct 2021 21:27:26 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/dummy-table-generator/</guid>
+      <description>Dummy Table Generator Faker というライブラリを使ってダミーデータ（架空の個人情報）を作成、各種フォーマットで出力するアプリ。
+またもフロントには Nuxt.js を使用。
+https://github.com/mi-ki-ri/dummy-table-generator</description>
+    </item>
+    
+    <item>
+      <title>コード譜作成支援サイト ChordType</title>
+      <link>https://mi-ki-ri.github.io/portfolio-2021/product/chordtype/</link>
+      <pubDate>Tue, 05 Oct 2021 12:49:30 +0900</pubDate>
+      
+      <guid>https://mi-ki-ri.github.io/portfolio-2021/product/chordtype/</guid>
+      <description>ChordType 左のペインに独自の記法で入力することで、右のペインにコード譜が出てくるWebアプリ。
+1ページしかないがNuxt.js使用。
+html2canvasというライブラリでダウンロードを支援している。
+https://github.com/mi-ki-ri/chordtype</description>
+    </item>
+    
+  </channel>
+</rss>

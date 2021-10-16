@@ -3,6 +3,7 @@ title: "等幅フォントで絵を描く　Monospace Space"
 date: 2021-10-15T16:12:26+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/monospace.png"
+tags: [ "JavaScript", "Vue" ]
 ---
 
 ### monospace-space

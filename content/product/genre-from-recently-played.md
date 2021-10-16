@@ -3,6 +3,7 @@ title: "Spotifyお気に入りからジャンル抽出 Genre From Recently Playe
 date: 2021-10-15T16:46:09+09:00
 draft: false
 hero: "https://mi-ki-ri.github.io/portfolio-2021/wcloud.png"
+tags: [ "Python", "Spotify" ]
 ---
 
 ### Genre From Recently Played
