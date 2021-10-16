@@ -1,30 +1,39 @@
 <h2 class="text-3xl mt-5">Tags:</h2>
 
 <div id="theme-tagcloud" class="
-    w-full border flex flex-wrap justify-around items-stretch	
+w-2/6
+max-w-2xl
+m-5
+shadow-md
+border flex flex-wrap justify-around items-stretch	
   " style="margin-bottom: 15px;">
-  {{ $tags := $.Site.Taxonomies.tags.ByCount }}
-  {{ $v1 := where $tags "Count" ">=" 1 }}
+
+  {{ $sl := (slice) }}
+  {{ range $name, $_ := ($.Site.Taxonomies.tags) }}
+  {{ $sl = $sl | append $name }}
+  {{ end }}
+
+  {{ range $name := $sl | shuffle }}
+
+  {{ $taxonomy := index $.Site.Taxonomies.tags ($name ) }}
+
+  {{ $count := len $taxonomy.Pages }}
 
   {{ $data := newScratch }}
-  {{ $data.Set "fs" "text-sm" }}
+  {{ $data.Set "fs" "text-xs" }}
 
-  {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss") }}
-  {{ range $v2 }}
-  {{ if .Term }}
-  {{ $tagURL := printf "tags/%s" .Term | relURL }}
-  {{ if gt .Count 1 }}
-    {{ $data.Set "fs" "text-base" }}
+  {{ if gt $count 1 }}
+  {{ $data.Set "fs" "text-base" }}
   {{ end }}
-  {{ if gt .Count 3 }}
-    {{ $data.Set "fs" "text-lg" }}
+  {{ if gt $count 3 }}
+  {{ $data.Set "fs" "text-xl" }}
   {{ end }}
-  {{ if gt .Count 5 }}
-    {{ $data.Set "fs" "text-xl" }}
+  {{ if gt $count 5 }}
+  {{ $data.Set "fs" "text-3xl" }}
   {{ end }}
-  <a class="{{ $data.Get "fs" }}" href="{{ $tagURL }}" style="text-transform: uppercase; font-size: 12px; padding-right: 5px; padding-left: 5px;">
+  <a class='{{ $data.Get "fs" }}' href="tags/{{$name}}"
+    style="text-transform: uppercase; font-size: 12px; padding-right: 5px; padding-left: 5px;">
     {{
-    .Term }} <span>({{ .Count }})</span></a>
-  {{ end }}
-  {{ end }}
+    $name }} <span>({{ $count }})</span></a>
+  {{end}}
 </div>

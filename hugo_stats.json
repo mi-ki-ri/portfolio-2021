@@ -75,8 +75,8 @@
       "text-red-700",
       "text-sm",
       "text-xl",
-      "w-2/6",
-      "w-full"
+      "text-xs",
+      "w-2/6"
     ],
     "ids": [
       "awesome-brew-cask",
